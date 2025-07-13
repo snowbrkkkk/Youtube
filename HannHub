@@ -1,0 +1,21 @@
+Roadroller
+
+local args = {
+	60,
+	"ROADROLLER"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Timestop"):FireServer(unpack(args))
+
+Inf Knife
+
+local args = {
+	"Alternate",
+	"Knife"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Input"):FireServer(unpack(args))
+
+local args = {
+	"Alternate",
+	"ResetKnife"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("Main"):WaitForChild("Input"):FireServer(unpack(args))
